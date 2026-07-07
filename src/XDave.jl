@@ -5,7 +5,7 @@ using PythonCall
 const xdave = PythonCall.pynew()
 
 function __init__()
-    PythonCall.pycopy!(xdave, pyimport("xdave"))
+    return PythonCall.pycopy!(xdave, pyimport("xdave"))
 end
 
 
@@ -16,8 +16,6 @@ A simple function to return "Hello, World!"
 function hello_world()
     return "Hello, World!"
 end
-
-
 
 
 end

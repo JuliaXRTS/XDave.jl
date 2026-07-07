@@ -3,9 +3,13 @@ module XDave
 using PythonCall
 
 const xdave = PythonCall.pynew()
+const ii_ff = PythonCall.pynew()
 
 function __init__()
-    return PythonCall.pycopy!(xdave, pyimport("xdave"))
+    PythonCall.pycopy!(xdave, pyimport("xdave"))
+    PythonCall.pycopy!(ii_ff, xdave.ii_ff)
+
+    return nothing
 end
 
 
@@ -17,5 +21,9 @@ function hello_world()
     return "Hello, World!"
 end
 
+
+export ScreeningConstants, PaulingShermanIonicFormFactor
+
+include("ii_ff.jl")
 
 end

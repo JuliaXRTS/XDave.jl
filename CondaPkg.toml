@@ -1,0 +1,3 @@
+
+[pip.deps]
+xdave = "@https://github.com/hbellenbaum/xdave/archive/refs/tags/v0.1.1.zip"

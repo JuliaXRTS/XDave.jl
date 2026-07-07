@@ -1,0 +1,36 @@
+# Changes here will be overwritten by Copier
+AddAllcontributors: false
+AddChangelog: false
+AddCitationCFF: false
+AddCodeOfConduct: false
+AddContributionDocs: false
+AddCopierCI: false
+AddDocs: true
+AddDocsCI: true
+AddFormatterAndLinterConfigFiles: false
+AddGitHubPRTemplate: false
+AddGitHubTemplates: false
+AddLintCI: false
+AddLychee: false
+AddMacToCI: false
+AddTagBotCI: true
+AddTestCI: true
+AddWinToCI: false
+Authors: Uwe Hernandez Acosta <u.hernandez@hzdr.de>
+CheckExplicitImports: false
+GitHubActionVersionAutoUpdate: dependabot
+JuliaCompatAutoUpdate: compathelper
+JuliaMinCIVersion: lts
+JuliaMinVersion: '1.10'
+License: MIT
+LicenseCopyrightHolders: Uwe Hernandez Acosta
+PackageName: XDave
+PackageOwner: JuliaXRTS
+PackageUUID: ed7f7f9d-ba8f-544b-be8f-6a352e2d7d23
+RunJuliaNightlyOnCI: false
+StrategyConfirmIncluded: true
+StrategyLevel: 1
+StrategyReviewExcluded: true
+TestingStrategy: testitem_cli
+UseCirrusCI: false
+_src_path: /Users/uwe/.julia/packages/BestieTemplate/6QVd6

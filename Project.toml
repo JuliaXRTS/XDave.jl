@@ -1,0 +1,10 @@
+name = "XDave"
+uuid = "ed7f7f9d-ba8f-544b-be8f-6a352e2d7d23"
+authors = ["Uwe Hernandez Acosta <u.hernandez@hzdr.de>"]
+version = "0.1.0"
+
+[workspace]
+projects = ["test", "docs"]
+
+[compat]
+julia = "1.10"
